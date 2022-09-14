@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/config"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api/settings"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/config"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api/settings"
 )
 
 func TestHandler_ServeHTTP(t *testing.T) {

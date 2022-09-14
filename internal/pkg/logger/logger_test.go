@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/logger"
 	"github.com/kami-zh/go-capturer"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/logger"
 )
 
 func TestNewNotVerboseDebugJSON(t *testing.T) {

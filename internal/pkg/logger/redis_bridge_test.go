@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/logger"
 	"github.com/kami-zh/go-capturer"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/logger"
 )
 
 func TestRedisBridge_Printf(t *testing.T) {

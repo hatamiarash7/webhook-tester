@@ -3,7 +3,7 @@ package api_test
 import (
 	"testing"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api"
 
 	"github.com/stretchr/testify/assert"
 )

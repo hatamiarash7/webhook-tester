@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/middlewares/cors"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/middlewares/cors"
 
 	"github.com/stretchr/testify/assert"
 )

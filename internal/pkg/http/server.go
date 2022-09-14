@@ -9,17 +9,17 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/metrics"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/metrics"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/gorilla/mux"
 	"go.uber.org/zap"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/config"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/middlewares/logreq"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/middlewares/panic"
-	"github.com/tarampampam/webhook-tester/internal/pkg/pubsub"
-	"github.com/tarampampam/webhook-tester/internal/pkg/storage"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/config"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/middlewares/logreq"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/middlewares/panic"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/pubsub"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/storage"
 )
 
 type (
@@ -34,7 +34,7 @@ const (
 	readTimeout = time.Second * 5
 
 	// IMPORTANT! Must be grater then
-	// github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api/session/create.maxResponseDelay value!
+	// github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api/session/create.maxResponseDelay value!
 	writeTimeout = time.Second * 31
 )
 

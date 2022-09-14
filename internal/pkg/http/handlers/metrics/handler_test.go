@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/metrics"
 )
 
 func TestNewHandlerError(t *testing.T) {

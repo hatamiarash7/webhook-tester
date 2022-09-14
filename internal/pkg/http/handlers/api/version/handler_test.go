@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api/version"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api/version"
 )
 
 func TestNewHandler(t *testing.T) {

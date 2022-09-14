@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/middlewares/logreq"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/middlewares/logreq"
 
 	"github.com/kami-zh/go-capturer"
 	"github.com/stretchr/testify/assert"

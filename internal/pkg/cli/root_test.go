@@ -3,9 +3,9 @@ package cli_test
 import (
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/cli"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/cli"
 )
 
 func TestSubcommands(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/cli/healthcheck"
 	"github.com/kami-zh/go-capturer"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/cli/healthcheck"
 )
 
 type fakeChecker struct{ err error }

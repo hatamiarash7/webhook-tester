@@ -1,4 +1,4 @@
-module github.com/tarampampam/webhook-tester
+module github.com/hatamiarash7/webhook-tester
 
 go 1.19
 

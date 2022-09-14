@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/breaker"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/breaker"
 )
 
 func TestNewOSSignals(t *testing.T) {

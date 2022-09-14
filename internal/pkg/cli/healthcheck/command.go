@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/env"
 	"github.com/spf13/cobra"
-	"github.com/tarampampam/webhook-tester/internal/pkg/env"
 )
 
 type checker interface {

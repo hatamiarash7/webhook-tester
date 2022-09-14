@@ -4,13 +4,13 @@ package cli
 import (
 	"context"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/checkers"
+	healthcheckCmd "github.com/hatamiarash7/webhook-tester/internal/pkg/cli/healthcheck"
+	serveCmd "github.com/hatamiarash7/webhook-tester/internal/pkg/cli/serve"
+	versionCmd "github.com/hatamiarash7/webhook-tester/internal/pkg/cli/version"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/logger"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/version"
 	"github.com/spf13/cobra"
-	"github.com/tarampampam/webhook-tester/internal/pkg/checkers"
-	healthcheckCmd "github.com/tarampampam/webhook-tester/internal/pkg/cli/healthcheck"
-	serveCmd "github.com/tarampampam/webhook-tester/internal/pkg/cli/serve"
-	versionCmd "github.com/tarampampam/webhook-tester/internal/pkg/cli/version"
-	"github.com/tarampampam/webhook-tester/internal/pkg/logger"
-	"github.com/tarampampam/webhook-tester/internal/pkg/version"
 )
 
 // NewCommand creates root command.

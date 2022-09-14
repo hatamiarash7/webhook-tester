@@ -4,9 +4,9 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/cli/version"
 	"github.com/kami-zh/go-capturer"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/cli/version"
 )
 
 func TestProperties(t *testing.T) {

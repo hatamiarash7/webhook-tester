@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/responder"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/responder"
 
 	"github.com/stretchr/testify/assert"
 )

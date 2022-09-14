@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api/session/create"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/storage"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api/session/create"
-	"github.com/tarampampam/webhook-tester/internal/pkg/storage"
 )
 
 func TestHandlerErrors(t *testing.T) {

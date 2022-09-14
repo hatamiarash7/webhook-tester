@@ -3,8 +3,8 @@ package pubsub_test
 import (
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/pubsub"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/pubsub"
 )
 
 func TestNewRequestRegisteredEvent(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/checkers"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/checkers"
 )
 
 type httpClientFunc func(*http.Request) (*http.Response, error)

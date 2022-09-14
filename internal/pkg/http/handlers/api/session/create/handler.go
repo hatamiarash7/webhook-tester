@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/responder"
-	"github.com/tarampampam/webhook-tester/internal/pkg/storage"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/responder"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/storage"
 )
 
 // IMPORTANT! Must be less then
-// github.com/tarampampam/webhook-tester/internal/pkg/http.writeTimeout value!
+// github.com/hatamiarash7/webhook-tester/internal/pkg/http.writeTimeout value!
 const maxResponseDelay = time.Second * 30
 
 func NewHandler(storage storage.Storage) http.HandlerFunc {

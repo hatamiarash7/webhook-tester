@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	panicMiddlewares "github.com/hatamiarash7/webhook-tester/internal/pkg/http/middlewares/panic"
 	"github.com/kami-zh/go-capturer"
 	"github.com/stretchr/testify/assert"
-	panicMiddlewares "github.com/tarampampam/webhook-tester/internal/pkg/http/middlewares/panic"
 	"go.uber.org/zap"
 )
 

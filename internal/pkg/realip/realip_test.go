@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/realip"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/realip"
 )
 
 func TestFromHTTPRequest(t *testing.T) {

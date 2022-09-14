@@ -3,8 +3,8 @@ package checkers_test
 import (
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/checkers"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/checkers"
 )
 
 func TestLiveChecker_Check(t *testing.T) {

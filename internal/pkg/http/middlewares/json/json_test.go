@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/middlewares/json"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/middlewares/json"
 )
 
 func TestMiddleware(t *testing.T) {

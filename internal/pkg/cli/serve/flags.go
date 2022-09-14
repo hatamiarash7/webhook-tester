@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/config"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/env"
 	"github.com/spf13/pflag"
-	"github.com/tarampampam/webhook-tester/internal/pkg/config"
-	"github.com/tarampampam/webhook-tester/internal/pkg/env"
 )
 
 type flags struct {

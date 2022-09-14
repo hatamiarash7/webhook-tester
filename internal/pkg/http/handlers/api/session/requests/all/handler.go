@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/responder"
-	"github.com/tarampampam/webhook-tester/internal/pkg/storage"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/responder"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/storage"
 
 	"github.com/gorilla/mux"
 )

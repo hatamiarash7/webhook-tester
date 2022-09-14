@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/pubsub"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/pubsub"
 )
 
 func TestInMemory_PublishErrors(t *testing.T) {

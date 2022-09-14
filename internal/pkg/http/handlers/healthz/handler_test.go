@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/healthz"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/healthz"
 )
 
 type fakeChecker struct{ err error }

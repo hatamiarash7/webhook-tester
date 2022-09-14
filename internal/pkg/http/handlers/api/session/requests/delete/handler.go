@@ -5,11 +5,11 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/responder"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/pubsub"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/storage"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/responder"
-	"github.com/tarampampam/webhook-tester/internal/pkg/pubsub"
-	"github.com/tarampampam/webhook-tester/internal/pkg/storage"
 )
 
 func NewHandler(storage storage.Storage, pub pubsub.Publisher) http.HandlerFunc {

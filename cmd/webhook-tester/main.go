@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/fatih/color"
-	"github.com/tarampampam/webhook-tester/internal/pkg/cli"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/cli"
 )
 
 // exitFn is a function for application exiting.

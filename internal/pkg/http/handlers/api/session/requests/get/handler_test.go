@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/handlers/api/session/requests/get"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/storage"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/handlers/api/session/requests/get"
-	"github.com/tarampampam/webhook-tester/internal/pkg/storage"
 )
 
 func TestHandler_ServeHTTPRequestErrors(t *testing.T) {

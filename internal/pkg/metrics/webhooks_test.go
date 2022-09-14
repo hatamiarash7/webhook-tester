@@ -3,10 +3,10 @@ package metrics_test
 import (
 	"testing"
 
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/assert"
-	"github.com/tarampampam/webhook-tester/internal/pkg/metrics"
 )
 
 func TestWebHooks_Register(t *testing.T) {

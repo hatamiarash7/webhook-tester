@@ -4,7 +4,7 @@ package version
 import (
 	"net/http"
 
-	"github.com/tarampampam/webhook-tester/internal/pkg/http/responder"
+	"github.com/hatamiarash7/webhook-tester/internal/pkg/http/responder"
 
 	jsoniter "github.com/json-iterator/go"
 )
