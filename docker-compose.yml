@@ -24,7 +24,7 @@ services:
   web:
     <<: *app-service
     ports:
-      - "8080:8080/tcp" # Open <http://127.0.0.1:8080>
+      - "2345:8080/tcp" # Open <http://127.0.0.1:8080>
     command:
       - go
       - run
@@ -46,7 +46,7 @@ services:
       timeout: 2s
 
   redis:
-    image: redis:7-alpine # Image page: <https://hub.docker.com/_/redis>
+    image: redis:7.0.2-alpine # Image page: <https://hub.docker.com/_/redis>
     volumes:
       - redis-data:/data:rw
     ports:
