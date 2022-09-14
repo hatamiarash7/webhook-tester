@@ -19,7 +19,7 @@ WORKDIR /src
 COPY . /src
 
 # arguments to pass on each go tool link invocation
-ENV LDFLAGS="-s -w -X github.com/tarampampam/webhook-tester/internal/pkg/version.version=$APP_VERSION"
+ENV LDFLAGS="-s -w -X github.com/hatamiarash7/webhook-tester/internal/pkg/version.version=$APP_VERSION"
 
 RUN set -x \
     && go version \
@@ -55,9 +55,9 @@ LABEL \
     # Docs: <https://github.com/opencontainers/image-spec/blob/master/annotations.md>
     org.opencontainers.image.title="webhook-tester" \
     org.opencontainers.image.description="Test your HTTP webhooks using friendly web UI" \
-    org.opencontainers.image.url="https://github.com/tarampampam/webhook-tester" \
-    org.opencontainers.image.source="https://github.com/tarampampam/webhook-tester" \
-    org.opencontainers.image.vendor="tarampampam" \
+    org.opencontainers.image.url="https://github.com/hatamiarash7/webhook-tester" \
+    org.opencontainers.image.source="https://github.com/hatamiarash7/webhook-tester" \
+    org.opencontainers.image.vendor="hatamiarash7" \
     org.opencontainers.version="$APP_VERSION" \
     org.opencontainers.image.licenses="MIT"
 

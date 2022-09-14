@@ -6,7 +6,7 @@
         >
             <p class="mb-0">
                 HEX viewer may have performance problems with large request payloads. Please, make a
-                <a href="https://github.com/tarampampam/webhook-tester/pulls" target="_blank">PR in the project
+                <a href="https://github.com/hatamiarash7/webhook-tester/pulls" target="_blank">PR in the project
                     repository</a> if you know how to solve this.
             </p>
         </div>
